@@ -1,0 +1,58 @@
+{
+  "registros_servicios": [
+    {
+      "id": 1,
+      "name": "Nombre prueba",
+      "last_name": "Apellido prueba",
+      "email": "prueba@correo.com",
+      "phone": "1-770-736-8031 x56442"
+    }
+  ],
+  "users": [
+    {
+        "id": 1,
+        "name": "Daniel Hernandez",
+        "email": "daniel@example.com",
+        "phone": "1234567890",
+        "state": "Activo"
+    },
+    {
+        "id": 2,
+        "name": "Ana López",
+        "email": "ana@example.com",
+        "phone": "9876543210",
+        "state": "Activo"
+    },
+    {
+        "id": 3,
+        "name": "Juan García",
+        "email": "juan@example.com",
+        "phone": "5555555555",
+        "state": "Inactivo"
+    },
+    {
+        "id": 4,
+        "name": "María Rodríguez",
+        "email": "maria@example.com",
+        "phone": "1111111111",
+        "state": "Activo"
+    },
+    {
+        "id": 5,
+        "name": "Pedro Martínez",
+        "email": "pedro@example.com",
+        "phone": "2222222222",
+        "state": "Inactivo"
+    },
+    {
+        "id": 6,
+        "name": "Sofía Pérez",
+        "email": "sofia@example.com",
+        "phone": "3333333333",
+        "state": "Activo"
+    }
+]
+
+
+
+}
