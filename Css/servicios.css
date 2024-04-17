@@ -1,0 +1,273 @@
+:root {
+  --rojo: #e50914;
+  --blanco: white;
+  --gris: #303030;
+  --gris-f: #757575;
+  --negro: black;
+  --tipo-titular: "Playfair Display", serif;
+  --tipo-principal: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--tipo-principal);
+  font-size: 100%;
+  min-height: 100vh;
+  background-color: rgb(11, 21, 34);
+  /*font-smooth: always;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: whitesmoke;
+}
+
+.header {
+  width: 100%;
+  min-height: 3em;
+  padding: 1em 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .h1 {
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: var(--tipo-principal);
+  font-style: oblique;
+}
+
+.header .ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .li {
+  margin: 0 1em;
+}
+
+.header .li .a {
+  border-bottom: 2px solid transparent;
+}
+
+.header .li .a:hover {
+  border-color: whitesmoke;
+  color: rgba(255, 255, 255, 0.481);
+}
+
+.main {
+  margin: 0 0 1em;
+  text-align: left;
+}
+
+.seccion {
+  width: 100%;
+  min-height: 80vh;
+  margin: 1em 0;
+  padding: 2em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion .h2 {
+  font-family: var(--tipo-titular);
+  font-weight: 600;
+  font-size: 5em;
+  line-height: 1em;
+  text-align: left;
+}
+
+.seccion .h3 {
+  font-family: var(--tipo-titular);
+  font-size: 3em;
+}
+
+.seccion .ul {
+  margin: 2em 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion .ul .li {
+  padding: 0.3em 0;
+  margin: 0 1em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.seccion .ul .a {
+  border-bottom: 2px solid rgba(112, 112, 113, 0.281);
+  padding: 1em 0 0.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.seccion .ul .a:hover {
+  border-color: whitesmoke;
+  color: #444b6c;
+}
+
+.seccion .grid {
+  width: 90%;
+  max-width: 40em;
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1em;
+}
+
+.seccion .article {
+  width: 100%;
+  min-height: 40vh;
+  background-color: rgb(18, 33, 53);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.seccion .h4 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(18, 33, 53);
+  /*backdrop-filter: blur(1rem);*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: translateZ(1) scale(1, 2);
+  transition: all 0.5s ease;
+  font-style: italic;
+  opacity: 0;
+  font-size: 1.8em;
+  font-family: var(--tipo-titular);
+}
+
+.seccion .article:hover .h4 {
+  opacity: 1;
+  transform: translateZ(1) scale(1);
+}
+
+.footer {
+  padding: 0em 0 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.footer:hover {
+  color: #444b6c;
+}
+
+.classScroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(76, 74, 83);
+  display: flex;
+  flex-flow: row wrap;
+  z-index: 10;
+}
+/* Estilos para el pie de página */
+.footer {
+  padding: 0em 0 1em;
+  text-align: center; /* Alinea el contenido al centro */
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row; /* Cambia la dirección de los elementos a horizontal */
+  justify-content: space-around; /* Distribuye los elementos horizontalmente */
+  background-color: #2a233b;
+}
+
+/* Estilos para las secciones dentro del pie de página */
+.footer .seccion-footer {
+  margin: 1em 0;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para el pie de página */
+.footer {
+  padding: 0em 0 1em;
+  text-align: center; /* Alinea el contenido al centro */
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row; /* Cambia la dirección de los elementos a horizontal */
+  justify-content: space-around; /* Distribuye los elementos horizontalmente */
+  background-color: #2a233b; /* Color de fondo del pie de página */
+}
+
+/* Estilos para las secciones dentro del pie de página */
+.footer .seccion-footer {
+  margin: 1em 0;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icon {
+  color: #333; /* Color del icono */
+  font-size: 24px; /* Tamaño del icono */
+  margin: 0 5px; /* Espacio entre iconos */
+}
+
+/* Estilos para el cuadro de chat */
+.chat-box {
+  display: flex;
+  align-items: center; /* Alinea el contenido al centro verticalmente */
+}
+
+.chat-box i {
+  color: #333; /* Color del icono */
+  font-size: 24px; /* Tamaño del icono */
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
