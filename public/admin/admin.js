@@ -12,16 +12,24 @@ fetch("http://localhost:3000/users")
     })
 
 // create td
-function td_fun({ id, name, email, phone, state}){
+function td_fun({ id, name, email, phone, address}){
     let td = document.createElement('tr');
     td.innerHTML = `
-                        <td>${id}</td>
+                        <td><div class="flex justify-center items-center">   <input type="checkbox" id="miCheckbox" name="miCheckbox" class="mr-2"></div></td>
                         <td>${name}</td>
                         <td>${email}</td>
+                        <td>${address}</td>
                         <td>${phone}</td>
-                        <td>${state}</td>
-                        <td><button class="btn-editar btn btn-warning"><i class="bi bi-pencil"></i></button></td>
-                        <td><button class="btn-delete btn btn-danger"><i class="bi bi-trash"></i></button></td>
+                        <td>
+                        <button class="btn-editar">
+                        <i class="bi bi-pencil text-yellow-500"></i>
+                        </button>
+                        <button class="btn-delete">
+                          <i class="bi bi-trash text-red-500"></i>
+                        </button>
+
+                      </td>
+                        
     `;
 
 	const btnEditar = td.querySelector('.btn-editar');

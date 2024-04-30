@@ -11,45 +11,45 @@
   "users": [
     {
         "id": 1,
-        "name": "Daniel Hernandez",
-        "email": "daniel@example.com",
-        "phone": "1234567890",
-        "state": "Activo"
+        "name": "Juan Perez",
+        "email": "juan@example.com",
+        "phone": "1111111111",
+        "address": "Calle 123, Ciudad X"
     },
     {
         "id": 2,
-        "name": "Ana López",
-        "email": "ana@example.com",
-        "phone": "9876543210",
-        "state": "Activo"
+        "name": "María Rodríguez",
+        "email": "maria@example.com",
+        "phone": "2222222222",
+        "address": "Avenida Principal, Ciudad Y"
     },
     {
         "id": 3,
-        "name": "Juan García",
-        "email": "juan@example.com",
-        "phone": "5555555555",
-        "state": "Inactivo"
+        "name": "Carlos López",
+        "email": "carlos@example.com",
+        "phone": "3333333333",
+        "address": "Carrera 45, Ciudad Z"
     },
     {
         "id": 4,
-        "name": "María Rodríguez",
-        "email": "maria@example.com",
-        "phone": "1111111111",
-        "state": "Activo"
+        "name": "Laura Gómez",
+        "email": "laura@example.com",
+        "phone": "4444444444",
+        "address": "Barrio Obrero, Ciudad W"
     },
     {
         "id": 5,
-        "name": "Pedro Martínez",
+        "name": "Pedro Martinez",
         "email": "pedro@example.com",
-        "phone": "2222222222",
-        "state": "Inactivo"
+        "phone": "5555555555",
+        "address": "Calle Principal, Ciudad V"
     },
     {
         "id": 6,
-        "name": "Sofía Pérez",
-        "email": "sofia@example.com",
-        "phone": "3333333333",
-        "state": "Activo"
+        "name": "Ana García",
+        "email": "ana@example.com",
+        "phone": "6666666666",
+        "address": "Avenida 5, Ciudad U"
     }
 ]
 

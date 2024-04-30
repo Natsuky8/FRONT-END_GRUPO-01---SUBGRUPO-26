@@ -66,15 +66,18 @@
 
     <div class="">
         
-        <div class="text-center mb-3">
-            <h2>Administración</h2>
+        <div class="flex justify-between items-center bg-blue-900 text-white p-4 mb-3">
+            <h2 class="text-left font-bold text-2xl">Administración</h2>
+            <div class="text-end mb-3 container">
+              <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mr-2">Borrar</button>
+              <button onclick="openModal()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Nuevo registro</button>
+            </div>
         </div>
+        
         
         <div class="border-line"></div>
         
-        <div class="text-end mb-3 container">
-            <button onclick="openModal()" class="btn btn-primary">Nuevo registro</button>
-        </div>
+        
 
         <!-- INICIO MODAL -->
         <div class="main-modal fixed w-full h-100 inset-0 z-50 overflow-hidden flex justify-center items-center animated fadeIn faster"
@@ -116,7 +119,7 @@
                             </div>
                             <!-- Cuarto campo -->
                             <div class="w-1/2 ml-2">
-                              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="estado" type="text" placeholder="Estado">
+                              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="estado" type="text" placeholder="Dirección">
                             </div>
                           </div>
                         </form>
@@ -139,13 +142,12 @@
             <table class="table table-light table-striped table-bordered text-center table-gray">
                 <thead>
                     <tr>
-                        <th>Nu°</th>
+                        <th><div class="flex justify-center items-center">   <input type="checkbox" id="miCheckbox" name="miCheckbox" class="mr-2"></div></th>
                         <th>Nombre</th>
-                        <th>Correo</th>
-                        <th>Teléfono</th>
-                        <th>Estado</th>
-                        <th>Editar</th>
-                        <th>Eliminar</th>
+                        <th>gmail</th>
+                        <th>Dirección</th>
+                        <th>Celular</th>
+                        <th>Gestionar</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
@@ -202,7 +204,7 @@
                         </div>
                         <!-- Cuarto campo -->
                         <div class="w-1/2 ml-2">
-                          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="estado" type="text" placeholder="Estado">
+                          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="estado" type="text" placeholder="dirreción">
                         </div>
                       </div>
                     </form>
