@@ -10,49 +10,81 @@
   ],
   "users": [
     {
-        "id": 1,
-        "name": "Juan Perez",
-        "email": "juan@example.com",
-        "phone": "1111111111",
-        "address": "Calle 123, Ciudad X"
+      "id": 1,
+      "name": "Juan Perez",
+      "email": "juan@example.com",
+      "phone": "1111111111",
+      "address": "Calle 123, Ciudad X"
     },
     {
-        "id": 2,
-        "name": "María Rodríguez",
-        "email": "maria@example.com",
-        "phone": "2222222222",
-        "address": "Avenida Principal, Ciudad Y"
+      "id": 2,
+      "name": "María Rodríguez",
+      "email": "maria@example.com",
+      "phone": "2222222222",
+      "address": "Avenida Principal, Ciudad Y"
     },
     {
-        "id": 3,
-        "name": "Carlos López",
-        "email": "carlos@example.com",
-        "phone": "3333333333",
-        "address": "Carrera 45, Ciudad Z"
+      "name": "Carlos López nuevo",
+      "email": "carlosNuevo@example.com",
+      "phone": "7777777777",
+      "address": "Carrera 60, Ciudad Z",
+      "id": "3"
     },
     {
-        "id": 4,
-        "name": "Laura Gómez",
-        "email": "laura@example.com",
-        "phone": "4444444444",
-        "address": "Barrio Obrero, Ciudad W"
+      "id": "6",
+      "name": "Ana García",
+      "email": "ana@example.com",
+      "phone": "6666666666",
+      "address": "Avenida 5, Ciudad U"
     },
     {
-        "id": 5,
-        "name": "Pedro Martinez",
-        "email": "pedro@example.com",
-        "phone": "5555555555",
-        "address": "Calle Principal, Ciudad V"
+      "name": "pedro nuevo",
+      "email": "pedro@prueba.com actualizado",
+      "phone": "3331112222 actualizado",
+      "address": "Calle 88 9945s actualizado",
+      "id": "4621"
     },
     {
-        "id": 6,
-        "name": "Ana García",
-        "email": "ana@example.com",
-        "phone": "6666666666",
-        "address": "Avenida 5, Ciudad U"
+      "id": "71bb",
+      "name": "Francisto",
+      "email": "Franc@prueba.com",
+      "phone": "22233311111",
+      "address": "Calle 88 p 22 2"
+    },
+    {
+      "id": "8d37",
+      "name": "Laura Gomez",
+      "email": "Lau@hotmail.com",
+      "address": "Calle 88 p 22 2",
+      "phone": "4443332222"
+    },
+    {
+      "id": "e9bd",
+      "name": "Carlos Ramirez",
+      "email": "carlos.ramirez@gmail.com",
+      "address": "Avenida Principal 123",
+      "phone": "5556667777"
+    },
+    {
+      "id": "f6a2",
+      "name": "María Lopez",
+      "email": "maria.lopez@yahoo.com",
+      "address": "Carrera 45 #67-89",
+      "phone": "3332221111"
+    },
+    {
+      "id": "b71c",
+      "name": "Pedro Martinez",
+      "email": "pedro.martinez@example.com",
+      "address": "Plaza Central 5",
+      "phone": "7778889999"
+    },
+    {
+      "id": "d4e9",
+      "name": "Ana Fernandez",
+      "email": "ana.fernandez@outlook.com",
+      "address": "Avenida Libertador 456",
+      "phone": "2221113333"
     }
-]
-
-
-
+  ]
 }

@@ -11,41 +11,6 @@ fetch("http://localhost:3000/users")
         })
     })
 
-// create td
-function td_fun({ id, name, email, phone, address}){
-    let td = document.createElement('tr');
-    td.innerHTML = `
-                        <td><div class="flex justify-center items-center">   <input type="checkbox" id="miCheckbox" name="miCheckbox" class="mr-2"></div></td>
-                        <td>${name}</td>
-                        <td>${email}</td>
-                        <td>${address}</td>
-                        <td>${phone}</td>
-                        <td>
-                        <button class="btn-editar">
-                        <i class="bi bi-pencil text-yellow-500"></i>
-                        </button>
-                        <button class="btn-delete">
-                          <i class="bi bi-trash text-red-500"></i>
-                        </button>
-
-                      </td>
-                        
-    `;
-
-	const btnEditar = td.querySelector('.btn-editar');
-    btnEditar.addEventListener('click', () => {
-        // Aquí puedes abrir el modal o realizar cualquier otra acción que necesites
-        toggleModal(); // Suponiendo que openModal es la función que abre tu modal
-    });
-
-	const btnDelete = td.querySelector('.btn-delete');
-    btnDelete.addEventListener('click', () => {
-        openModalDelete(); // Suponiendo que openModalDelete es la función que abre tu modal de eliminación
-    });
-    return td;
-}
-
-
 const modal = document.querySelector('.main-modal');
 const closeButton = document.querySelectorAll('.modal-close');
 
@@ -126,7 +91,6 @@ function openModalDelete() {
 
 
 for (let i = 0; i < closeButtonDelete.length; i++) {
-	console.log("X de eliminar registro")
 	const elements = closeButtonDelete[i];
 	elements.onclick = (e) => modalCloseDelete();
 	modalDelete.style.display = 'none';
